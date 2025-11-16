@@ -98,7 +98,32 @@
 #     ans=ans*a;
 # print(f"a^b={ans}");
 
+# Question 10 prime number
 
+# n=int(input("Enter the number:"));
+# count=0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count=count+1;
+# if count==1:
+#     print("your number is a unity number:");
+# elif count==2:
+#     print("your numbe is prime");
+# else:
+#     print("your number is composite")
+
+
+# or
+
+
+# n=int(input("Enter the number:"));
+# for i in range(2,n):
+#     if n%i==0:
+#         print("sorry your number is composit")
+#         break;
+# else:
+#     print("Your number is prime")
+        
 
 
 # Practice Question 
@@ -116,7 +141,7 @@
 #     sum=sum+int(n[i]);
 # print(sum);
 
-# Question 2) Count upercase and lowercase latter
+# Question 3) Count upercase and lowercase latter
 # latter=input("Enter the charactor");
 # u=0;
 # l=0;
@@ -128,7 +153,7 @@
 # print("Upper Values is",u);
 # print("Lower values is",l);
 
-# Quetion 3) Count event and odd digits
+# Quetion 4) Count event and odd digits
 # num=input("Enter the number:");
 # odd=0;
 # even=0;
@@ -140,8 +165,9 @@
 # print("Even is",even);
 # print("Odd is:",odd);
 
-# Question 4) Print pelindrome number
-startN=input("Enter the start number");
-endN=input("Enter the end number");
-for i in range(startN,endN):
-    if i
+# Question 5) Print pelindrome number
+# startN=int(input("Enter the start number"));
+# endN=int(input("Enter the end number"));
+# for i in range(startN,endN+1):
+#     if str(i)==str(i)[: : -1]:
+#         print("Pelimdrome number",str(i));
